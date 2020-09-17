@@ -8,22 +8,22 @@
         
             <title>
                 
-                    article |
-                        
-                            Hexo
+                            牟明博客
             </title>
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-            <meta property="og:type" content="article">
-<meta property="og:title" content="article">
+            <meta name="description" content="搭建 hexo的初级搭建还有部署到github page上，以及个人域名的绑定。 Hexo搭建步骤  1.安装Git  2.安装Node.js  3.安装Hexo  4.GitHub创建个人仓库  5.生成SSH添加到GitHub  6.将hexo部署到GitHub  7.设置个人域名  8.发布文章 安装Git为了把本地的网页文件上传到github上面去，需要用到工具———Git[下载地址]。G">
+<meta property="og:type" content="article">
+<meta property="og:title" content="牟明博客">
 <meta property="og:url" content="http://example.com/2020/09/17/article/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="牟明博客">
+<meta property="og:description" content="搭建 hexo的初级搭建还有部署到github page上，以及个人域名的绑定。 Hexo搭建步骤  1.安装Git  2.安装Node.js  3.安装Hexo  4.GitHub创建个人仓库  5.生成SSH添加到GitHub  6.将hexo部署到GitHub  7.设置个人域名  8.发布文章 安装Git为了把本地的网页文件上传到github上面去，需要用到工具———Git[下载地址]。G">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-09-17T05:13:19.000Z">
-<meta property="article:modified_time" content="2020-09-17T05:13:19.194Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:published_time" content="2020-09-17T05:13:19.193Z">
+<meta property="article:modified_time" content="2020-09-17T08:08:24.972Z">
+<meta property="article:author" content="ming-mu">
 <meta name="twitter:card" content="summary">
                 
-                    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+                    <link rel="alternate" href="/atom.xml" title="牟明博客" type="application/atom+xml">
                     
                         
                             <link rel="icon" href="/favicon.png">
@@ -43,7 +43,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">牟明博客</a>
       </h1>
       
     </div>
@@ -72,26 +72,42 @@
         <section id="main"><article id="post-article" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/09/17/article/" class="article-date">
-  <time datetime="2020-09-17T05:13:19.000Z" itemprop="datePublished">2020-09-17</time>
+  <time datetime="2020-09-17T05:13:19.193Z" itemprop="datePublished">2020-09-17</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      article
-    </h1>
-  
-
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h1 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h1><hr>
+<p>hexo的初级搭建还有部署到github page上，以及个人域名的绑定。</p>
+<h2 id="Hexo搭建步骤"><a href="#Hexo搭建步骤" class="headerlink" title="Hexo搭建步骤"></a>Hexo搭建步骤</h2><hr>
+<ul>
+<li><p>1.安装Git</p>
+</li>
+<li><p>2.安装Node.js</p>
+</li>
+<li><p>3.安装Hexo</p>
+</li>
+<li><p>4.GitHub创建个人仓库</p>
+</li>
+<li><p>5.生成SSH添加到GitHub</p>
+</li>
+<li><p>6.将hexo部署到GitHub</p>
+</li>
+<li><p>7.设置个人域名</p>
+</li>
+<li><p>8.发布文章</p>
+<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>为了把本地的网页文件上传到github上面去，需要用到工具———Git<a target="_blank" rel="noopener" href="https://git-scm.com/download">[下载地址]</a>。Git是目前世界上最先进的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。Git非常强大，建议每个人都去了解一下。廖雪峰老师的Git教程写的非常好，大家可以看一下。<a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程</a></p>
+<p><strong>windows:</strong> 到git官网上下载.exe文件,Download git,安装选项还是全部默认，只不过最后一步添加路径时选择Use Git from the Windows Command Prompt，这样我们就可以直接在命令提示符里打开git了。<br><strong>linux：</strong>对linux来说实在是太简单了，因为最早的git就是在linux上编写的，只需要一行代码</p>
+<h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p>Hexo是基于node.js编写的，所以需要安装一下node.js和里面的npm工具。</p>
+</li>
+</ul>
+<p>windows：下载稳定版或者最新版都可以Node.js，安装选项全部默认，一路点击Next。<br>最后安装好之后，按Win+R打开命令提示符，输入node -v和npm -v，如果出现版本号，那么就安装成功了。</p>
+<p>linux：命令行安装：</p>
+
       
     </div>
     <footer class="article-footer">
@@ -102,16 +118,6 @@
   </div>
   
     
-<nav id="article-nav">
-  
-  
-    <a href="/2020/09/17/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
-    </a>
-  
-</nav>
-
   
 </article>
 
@@ -144,11 +150,7 @@
       <ul>
         
           <li>
-            <a href="/2020/09/17/article/">article</a>
-          </li>
-        
-          <li>
-            <a href="/2020/09/17/hello-world/">Hello World</a>
+            <a href="/2020/09/17/article/">(no title)</a>
           </li>
         
       </ul>
@@ -165,7 +167,7 @@
                     <div id="footer-info" class="inner">
                         &copy;
                         2020
-                            John Doe<br>
+                            ming-mu<br>
                                 Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
                     </div>
                 </div>
